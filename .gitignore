@@ -1,0 +1,24 @@
+# University-provided simulator
+plug_and_produce_simulation.py
+
+# Generated product logs
+product_log.csv
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

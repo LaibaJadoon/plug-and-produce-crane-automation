@@ -1,0 +1,98 @@
+{
+  "description": "Handle Type 1 and Type 2 parts ",
+  "positions": {
+    "Source 1 (pick)": {
+      "setX": 55,
+      "setY": 82
+    },
+    "Source 1 (safe)": {
+      "setX": 55,
+      "setY": 200
+    },
+    "Source 2 (pick)": {
+      "setX": 158,
+      "setY": 82
+    },
+    "Source 2 (safe)": {
+      "setX": 158,
+      "setY": 200
+    },
+    "Process 1 (pick/place)": {
+      "setX": 450,
+      "setY": 82
+    },
+    "Process 1 (safe)": {
+      "setX": 450,
+      "setY": 200
+    },
+    "Process 2 (pick/place)": {
+      "setX": 650,
+      "setY": 82
+    },
+    "Process 2 (safe)": {
+      "setX": 650,
+      "setY": 200
+    },
+    "Sink (place)": {
+      "setX": 945,
+      "setY": 82
+    },
+    "Sink (safe)": {
+      "setX": 945,
+      "setY": 200
+    }
+  },
+  "actions": [
+    {
+      "setX": 55,
+      "setY": 82
+    },
+    {
+      "vacuum": 1
+    },
+    {
+      "setX": 55,
+      "setY": 200
+    },
+    {
+      "setX": 450,
+      "setY": 200
+    },
+    {
+      "setX": 450,
+      "setY": 82
+    },
+    {
+      "vacuum": 0
+    },
+    {
+      "setX": 450,
+      "setY": 200
+    },
+    {
+      "startp1": 1
+    },
+    {
+      "setX": 450,
+      "setY": 82
+    },
+    {
+      "vacuum": 1
+    },
+    {
+      "setX": 450,
+      "setY": 200
+    },
+    {
+      "setX": 945,
+      "setY": 82
+    },
+    {
+      "vacuum": 0
+    },
+    {
+      "setX": 945,
+      "setY": 200
+    }
+  ]
+}
